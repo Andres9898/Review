@@ -1,0 +1,74 @@
+# Entorno virtual
+venv/
+.env
+*.env
+
+# Python cache
+__pycache__/
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+*.log
+logs/
+
+# Archivos de configuración temporales
+*.db
+*.sqlite3
+
+# Pytest
+.cache/
+*.cover
+coverage.xml
+htmlcov/
+pytest_cache/
+
+# VSCode settings
+.vscode/
+
+# Archivos de salida
+*.out
+*.log
+
+# Archivos de compilación C
+*.so
+
+# Jupyter notebooks (si usas)
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.tar
+*.img
+*.container
+*.bak
+docker-compose.override.yml
+
+# Archivos de producción o build
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.idea/
+*.iml
+
+# AWS/Cloud/Terraform (si usas)
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.pem
+*.key
+.aws/
+terraform.tfvars
+
+# Archivos de backup
+*~
+*.swp
+*.bak
