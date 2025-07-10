@@ -4,7 +4,6 @@ from app.schemas.user_schema import UserSchema
 from app import db
 from datetime import datetime, timedelta
 import secrets
-from app.utils.mail import send_email
 
 user_schema = UserSchema()
 
